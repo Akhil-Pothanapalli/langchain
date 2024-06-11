@@ -8,12 +8,13 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-os.environ["GEMINI_API_KEY"] = os.getenv("GEMINI_API_KEY")
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 
 # Prompt Template
-prompt = ChatPromptTemplate.from_message([
+
+prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a helpful assistant. Please respond to the user queries"),
     ("user", "Question:{question}")
 ])
