@@ -12,3 +12,5 @@ ipykernel
 torch
 Iprogress
 PyPDF2
+vertexai
+openai
