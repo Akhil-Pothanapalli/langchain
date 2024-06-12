@@ -1,0 +1,14 @@
+langchain
+pypdf
+pandas
+matplotlib
+tiktoken
+textract
+transformers
+faiss-cpu
+google-generativeai
+python-dotenv
+ipykernel
+torch
+Iprogress
+PyPDF2
